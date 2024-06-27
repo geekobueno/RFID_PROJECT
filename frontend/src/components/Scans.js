@@ -29,8 +29,7 @@ const Scans = () => {
             <th>Card UID</th>
             <th>Timestamp</th>
             <th>Type</th>
-            <th>User Type</th>
-          </tr>
+           </tr>
         </thead>
         <tbody>
           {scans.map(scan => (
@@ -38,7 +37,6 @@ const Scans = () => {
               <td>{scan.cardUID}</td>
               <td>{new Date(scan.timestamp).toLocaleString()}</td>
               <td>{scan.type}</td>
-              <td>{scan.userType}</td>
             </tr>
           ))}
         </tbody>

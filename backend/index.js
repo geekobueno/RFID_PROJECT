@@ -27,7 +27,6 @@ const scanSchema = new mongoose.Schema({
   cardUID: String,
   timestamp: { type: Date, default: Date.now },
   type: String, // 'entry', 'exit', 'break_start', 'break_end'
-  userType: String, // 'employee', 'teacher', 'student'
 });
 
 const courseSchema = new mongoose.Schema({
