@@ -35,7 +35,7 @@ const TagVisualization = () => {
   useEffect(() => {
     const fetchTags = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/rfidtags');
+        const response = await axios.get('http://192.168.137.40:5000/api/rfidtags');
         setTags(response.data);
         setLoading(false);
       } catch (err) {

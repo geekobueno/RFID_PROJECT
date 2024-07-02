@@ -184,6 +184,7 @@ app.delete('/api/courses/:id', async (req, res) => {
 
 // RFID Tag routes
 app.get('/api/rfidtags', async (req, res) => {
+    console.log("get coming")
   try {
     const tags = await RFIDTag.find();
     res.json(tags);
@@ -193,6 +194,7 @@ app.get('/api/rfidtags', async (req, res) => {
 });
 
 app.get('/api/rfidtags/:cardUID', async (req, res) => {
+  console.log("get coming")
   try {
     const tag = await RFIDTag.findOne({ cardUID: req.params.cardUID });
     if (!tag) {

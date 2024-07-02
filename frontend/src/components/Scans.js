@@ -13,7 +13,7 @@ const Scans = () => {
   // Function to fetch scans from the backend
   const fetchScans = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/scans');
+      const response = await axios.get('http://192.168.137.40:5000/scans');
       setScans(response.data);
     } catch (error) {
       console.error('Error fetching data', error);
