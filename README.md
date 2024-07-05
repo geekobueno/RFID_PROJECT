@@ -1,7 +1,4 @@
 # RFID_PROJECT
-### Proposal for Implementing an RFID System at UCAO-UUT
-
-The Catholic University of West Africa (UCAO-UUT) is dedicated to academic training and research, promoting excellence in education, community integration, multilingualism, interfaith dialogue, and international collaboration. To enhance resource management and monitor academic activities, we propose implementing an RFID (Radio Frequency Identification) system to track the movements of staff, teachers, and students. This system will improve the management of working hours, class attendance, and resource utilization.
 
 ### Understanding RFID Technology
 
@@ -35,10 +32,7 @@ RFID, or Radio Frequency Identification, uses electromagnetic fields to automati
 
 ### RFID System Features
 
-#### For Administrative Staff:
-   - Employees scan their RFID card at entry, during breaks, and upon departure.
-   - The system logs attendance and compares it with standard working hours.
-   - **Benefits:** Accurate monitoring of working hours and detection of overtime.
+
 
 #### For Teachers:
    - Teachers scan their RFID tag at the beginning and end of classes.
